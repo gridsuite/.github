@@ -1,1 +1,3 @@
-# .github
+# ✨ _Special_ ✨ repository
+Contains default files for repositories and profile readme.
+
