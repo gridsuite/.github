@@ -1,3 +1,2 @@
-# ✨ _Special_ ✨ repository
-Contains default files for repositories and profile readme.
-
+# .github
+This repository contains GitHub-specific configurations for the Gridsuite organization.
