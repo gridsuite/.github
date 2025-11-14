@@ -2,7 +2,7 @@
 
 **Welcome to the GridSuite Project README**
 
-![GridSuite Logo](=> link to logohttps://raw.githubusercontent.com/gridsuite/gridstudy-app/899c03da0a7ea8d703d33ccb39d7119a99453ef1/src/images/GridStudy_logo_light.svg)
+![GridSuite Logo](../images/gridsuite.svg?sanitize=true)
 
 🙋‍♀️ **A short introduction — what is GridSuite all about?**
 
