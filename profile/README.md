@@ -2,7 +2,7 @@
 
 **Welcome to the GridSuite Project README**
 
-![GridSuite Logo]<img src="../images/gridsuite.svg?sanitize=true" alt="Descriptive Alt Text" width="1000">
+<img src="../images/gridsuite.svg?sanitize=true" alt="Gridsuite Logo" width="800">
 
 🙋‍♀️ **A short introduction — what is GridSuite all about?**
 
