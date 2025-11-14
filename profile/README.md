@@ -5,7 +5,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../images/gridsuite_logo_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="../images/gridsuite_logo_light.svg">
-  <img alt="Fallback image description" src="../images/gridsuite_logo_light.svg" width="800">
+  <img alt="Gridsuite Logo" src="../images/gridsuite_logo_light.svg" width="800">
 </picture>
 
 🙋‍♀️ **A short introduction — what is GridSuite all about?**
