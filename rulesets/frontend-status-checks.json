@@ -1,0 +1,49 @@
+{
+  "name": "frontend-status-checks",
+  "target": "branch",
+  "enforcement": "active",
+  "conditions": {
+    "ref_name": {
+      "exclude": [],
+      "include": [
+        "~DEFAULT_BRANCH",
+        "refs/heads/release-v*"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "required_status_checks",
+      "parameters": {
+        "strict_required_status_checks_policy": true,
+        "do_not_enforce_on_create": false,
+        "required_status_checks": [
+          {
+            "context": "SonarCloud Code Analysis",
+            "integration_id": 12526
+          },
+          {
+            "context": "build / Check licenses headers",
+            "integration_id": 15368
+          },
+          {
+            "context": "build / build",
+            "integration_id": 15368
+          }
+        ]
+      }
+    }
+  ],
+  "bypass_actors": [
+    {
+      "actor_id": null,
+      "actor_type": "OrganizationAdmin",
+      "bypass_mode": "always"
+    },
+    {
+      "actor_id": 1024736,
+      "actor_type": "Integration",
+      "bypass_mode": "always"
+    }
+  ]
+}
